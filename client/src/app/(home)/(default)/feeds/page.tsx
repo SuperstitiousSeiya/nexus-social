@@ -3,10 +3,10 @@ import { StoriesSection } from "../../components/feed/stories-section";
 
 export default function FeedPage() {
     return (
-        <>
-            <StoriesSection />
+        <div className="">
+            <StoriesSection  />
             <FeedSection />
 
-        </>
+        </div>
     )
 }

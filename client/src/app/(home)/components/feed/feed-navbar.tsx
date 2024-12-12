@@ -11,7 +11,7 @@ const navItems = [
 
 export function FeedNavbar() {
     return (
-        <nav className="bg-bakground border-b sticky top-0 z-40">
+        <nav className="bg-background border-b sticky top-0 z-40">
             <div className="flex justify-between items-center px-4 py-2 max-w-7xl mx-auto">
                 <div className="flex items-center gap-2">
                     <Link href="/" className="text-xl font-bold">

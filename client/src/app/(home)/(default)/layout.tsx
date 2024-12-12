@@ -14,7 +14,7 @@ export default function FeedLayout({
             <FeedNavbar />
             <div className="flex">
                 <LeftSidebar />
-                <main className="flex-1 ml-[280px] mr-[280px]">
+                <main className="flex-1 ml-[280px] mr-[280px] relative">
                     <div className="max-w-3xl mx-auto py-6 px-4">
                         {children}
                     </div>

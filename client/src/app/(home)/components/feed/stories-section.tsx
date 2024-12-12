@@ -12,7 +12,7 @@ const stories = [
 
 export function StoriesSection() {
   return (
-    <div className="bg-card rounded-lg p-4 mb-6">
+    <div className="bg-card rounded-lg p-4 mb-6 sticky top-[4rem] pt-10 z-40">
       <ScrollArea>
         <div className="flex space-x-4">
           {stories.map((story) => (
