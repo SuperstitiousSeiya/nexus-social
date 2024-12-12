@@ -14,8 +14,8 @@ export function FeedNavbar() {
         <nav className="bg-background border-b sticky top-0 z-40">
             <div className="flex justify-between items-center px-4 py-2 max-w-7xl mx-auto">
                 <div className="flex items-center gap-2">
-                    <Link href="/" className="text-xl font-bold">
-                        SocialApp
+                    <Link href="/feeds" className="text-xl font-bold">
+                        Nexus
                     </Link>
                 </div>
 
